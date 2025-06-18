@@ -1,0 +1,14 @@
+html, .row {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Lancelot', serif;
+    color: #a53e1e;
+}
+
+p {
+    font-family: "Faculty Glyphic", sans-serif;
+    color: #39211a;
+}
