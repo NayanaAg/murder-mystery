@@ -1,0 +1,38 @@
+/*William's house branding*/
+
+.meeting-heading {
+    font-size: 2em;
+    font-weight: 800;
+    font-family: "Platypi", serif;
+}
+
+.meeting-time{
+    font-size: 1.3em;
+    font-weight: 600;
+    background-color: lightpink;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+#request-denied {
+    font-weight: 600;
+    color: red;
+}
+
+#date {
+    font-family: "Platypi", serif;
+    padding: 10px;
+}
+
+.meeting-duration {
+    font-weight: 400;
+}
+
+.meeting-details  {
+    padding: 1em 0.5em;
+}
+
+
+#will-logo {
+    width: 20%;
+}
