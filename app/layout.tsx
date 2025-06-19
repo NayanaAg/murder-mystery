@@ -23,8 +23,9 @@ export default function RootLayout({
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Lancelot&family=Platypi:wght@300..800&display=swap" rel="stylesheet" />
-          <link href="./global.css" rel="sylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Lancelot&family=Lavishly+Yours&family=Platypi:wght@300..800&display=swap" rel="stylesheet" />
+
+        <link href="./global.css" rel="sylesheet" />
       </head>
       <body>{children}</body>
     </html>

@@ -4,7 +4,6 @@ import "../global.css";
 export default function Page() {
     return <>
         <div id="container-fluid">
-
             <header>
                 <div className="row">
                     <div className="col-10 offset-1 mt-5">
@@ -17,7 +16,7 @@ export default function Page() {
             <hr />
 
             <div className="row">
-                <div className="col-10 offset-1 mt-5">
+                <div className="col-10 offset-1 mt-3">
                     <h2 className="meeting-time">09:00 a.m.</h2>
                     <p className="meeting-details">Ivan Naydenov <span id="request-denied">[REQUEST DENIED]</span></p>
 
@@ -34,10 +33,11 @@ export default function Page() {
 
                 <hr />
 
-                <footer>
+                <footer className="mb-5">
                     <div className="row">
-                        <div className="col-10 offset-1">
+                        <div className="col-8 offset-2 text-center">
                             <img id="will-logo" src="images/will-logo.png"></img>
+                            <p>CONFIDENTIAL INFORMATION FOR THE HOUSE OF WILLIAM CHATEAUDIX</p>
                         </div>
                     </div>
                 </footer>

@@ -1,0 +1,30 @@
+html {
+    background-color: black;
+}
+
+#container-fluid {
+    background-color: black;
+}
+
+h1 {
+    font-family: "Lavishly Yours", cursive;
+    color: gold !important;
+    font-size: 2.5em !important;
+}
+
+#missing-wine {
+    color: gold;
+}
+
+td {
+    padding: 1em !important;
+}
+
+footer {
+    background-color: rgb(255, 231, 164);
+}
+
+#will-logo {
+    width: 20%;
+    padding: 10px 0;
+}
