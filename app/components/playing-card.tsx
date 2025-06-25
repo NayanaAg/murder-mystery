@@ -1,24 +1,27 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../blackjack/blackjack.css";
 import playingCards from "../blackjack.json";
-import FlipPage from "react-flip-page";
 
 export default function PlayingCard(props) {
 
     const card = playingCards[props.card]
 
+      const [animation, setAnimation] = useState(true);
+      const handleClick = () => setAnimation(false);
+
+
     return <>
-        <div className="card-container" key={card.id}>
-            <FlipPage orientation="horizontal" disableSwipe flipOnTouch flipOnTouchZone="400" responsive style={{fill: "none"}}>
-                <article>
-                    <img className="card-back" src="../images/cardback.jpg" />
-                </article>
-                <article>
-                    <img className="card-front" src={"../images/" + card.image} />
-                </article>
-            </FlipPage>
+        <div className= {animation ? 'flip-card' : 'flip-card flipped'} onClick={handleClick} key={card.id}>
+            <div className="flip-card-inner">
+                <div className="flip-card-back">
+                    <img className="card-front" src={"./images" + card.image} />
+                </div>
+                <div className="flip-card-front">
+                    <img className="card-back" src="./images/cardback.jpg" />
+                </div>
+            </div>
         </div>
     </>
 }
