@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import "../blackjack/blackjack.css";
 import * as playingCards from "../blackjack.json";
@@ -9,7 +11,7 @@ export default function PlayingCard(props) {
 
     return <>
         <div className="card-container" key={card.id}>
-            <FlipPage orientation="horizontal" disableSwipe flipOnTouch responsive style={{fill: "none"}}>
+            <FlipPage orientation="horizontal" disableSwipe flipOnTouch flipOnTouchZone="400" responsive style={{fill: "none"}}>
                 <article>
                     <img className="card-back" src="../images/cardback.jpg" />
                 </article>
