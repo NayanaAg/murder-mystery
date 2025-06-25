@@ -1,19 +1,18 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 html,
 #container-fluid {
     background-color: #008000;
 }
 
+#player-cards {
+    position: absolute;
+    bottom: 0;
+}
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
-    width: 250px;
-    height: 350px;
+    width: 120px;
+    height: 168px;
 }
 
 /* This container is needed to position the front and back side */
@@ -24,6 +23,7 @@ html,
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    fill: #fff;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -51,6 +51,11 @@ html,
 .card-front {
     background-position: fit;
     height: 100%;
-    border: 1px solid red;
+    border: 1px solid transparent;
     border-radius: 20px;
+    padding: 15px;
+}
+
+.btn {
+    margin: 10px;
 }
