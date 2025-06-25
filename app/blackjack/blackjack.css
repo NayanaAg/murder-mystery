@@ -1,14 +1,30 @@
-html, #container-fluid {
-    background-color: green;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+#container-fluid {
+    background-color: #008000;
 }
 
 .card-container {
-    height:200px;
-    width: 100px;
+    width: 250px;
+    height: 349px;
     margin: 25px;
 }
 
-.card-back {
-    background-image: "images/cardback.png";
+.card-container, .card-container article {
+    background-color: green !important;
+}
+
+.card-container img {
+    border: 2px solid transparent !important;
+    border-radius: 15px !important;
+}
+
+.card-back, .card-front {
     background-position: fit;
+    width: 100%;
 }

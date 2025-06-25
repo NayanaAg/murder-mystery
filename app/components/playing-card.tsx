@@ -9,12 +9,12 @@ export default function PlayingCard(props) {
 
     return <>
         <div className="card-container" key={card.id}>
-            <FlipPage flipOnTouch>
-                <article className="card-back">
-                    <h2>Testing</h2>
+            <FlipPage orientation="horizontal" disableSwipe flipOnTouch responsive style={{fill: "none"}}>
+                <article>
+                    <img className="card-back" src="../images/cardback.jpg" />
                 </article>
-                <article className="card-front">
-                    <img src={"../images/projects" + card.image} />
+                <article>
+                    <img className="card-front" src={"../images/" + card.image} />
                 </article>
             </FlipPage>
         </div>
