@@ -1,0 +1,14 @@
+html, #container-fluid {
+    background-color: green;
+}
+
+.card-container {
+    height:200px;
+    width: 100px;
+    margin: 25px;
+}
+
+.card-back {
+    background-image: "images/cardback.png";
+    background-position: fit;
+}

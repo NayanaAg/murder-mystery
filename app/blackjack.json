@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "value": 10,
+        "image": "/will-logo.png"
+    },
+    {
+        "id": 2,
+        "value": 9,
+        "image": "/will-logo.png"
+    },
+    {
+        "id": 3,
+        "value": 10,
+        "image": "/will-logo.png"
+    }
+]
