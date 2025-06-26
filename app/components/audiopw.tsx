@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Data from "../puzzles.json";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
+import "../gated/gated.css";
 
 export default function PasswordAudio(props) {
 
@@ -36,7 +37,7 @@ export default function PasswordAudio(props) {
         <form>
             <input type="text" className="form-control my-5" id="password" aria-describedby="password" onChange={e => setUsername(e.target.value)}></input>
 
-            <button type="button" className="btn btn-primary" onClick={() => passwordCheck(username, puzzle.password)}>Submit</button>
+            <button type="button" className="btn btn-primary btn-lg" onClick={() => passwordCheck(username, puzzle.password)}>ENTER</button>
         </form>
 
         <div id="clue" className="my-3" style={{ display: "none" }}> <Player /> </div>

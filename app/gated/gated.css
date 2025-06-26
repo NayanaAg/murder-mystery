@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+html, #container-fluid {
+    background-color: black;
+}
+
+h1 {
+    font-family: "Limelight", sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    color: white !important;
+}
+
+.btn-primary {
+    background-color: rgb(196, 2, 2) !important;
+    border: none !important;
+    padding: 5px 40px !important;
+}
+
