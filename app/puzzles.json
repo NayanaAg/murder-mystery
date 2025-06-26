@@ -17,7 +17,7 @@
         "puzzle": "Chess puzzle to reveal Scarlett & William's recording",
         "title": "Enter the password to access the meeting logs.",
         "password": "g4#",
-        "reveal": "This is the correct answer"
+        "reveal": "/audio/scarlett-will.mp3"
     },
     {
         "id": 3,

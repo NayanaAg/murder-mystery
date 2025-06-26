@@ -1,9 +1,11 @@
 "use client";
 
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Data from "../puzzles.json";
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 
-export default function PasswordPlease(props) {
+export default function PasswordAudio(props) {
 
     const puzzle = Data[props.puzzle];
     const [username, setUsername] = useState('')
@@ -18,9 +20,15 @@ export default function PasswordPlease(props) {
         } else {
             document.getElementById("clue").style.display = 'none';
         }
-
-        return console.log(password + solution)
     }
+
+    const Player = () => (
+        <AudioPlayer
+            src= {puzzle.reveal}
+            onPlay={e => console.log("onPlay")}
+        // other props here
+        />
+    );
 
     return <>
         <h1>{puzzle.title}</h1>
@@ -31,6 +39,6 @@ export default function PasswordPlease(props) {
             <button type="button" className="btn btn-primary" onClick={() => passwordCheck(username, puzzle.password)}>Submit</button>
         </form>
 
-        <div id="clue" className="my-3" style={{display:"none"}}> {puzzle.reveal} </div>
+        <div id="clue" className="my-3" style={{ display: "none" }}> <Player /> </div>
     </>
 }
