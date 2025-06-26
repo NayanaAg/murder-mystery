@@ -11,7 +11,7 @@ export default function PasswordPlease(props) {
 
     function passwordCheck(input, solution) {
 
-        let password = input.toString()
+        let password = input.toString().toLowerCase()
 
         if (password === solution) {
             document.getElementById("clue").style.display = 'block';
@@ -23,7 +23,7 @@ export default function PasswordPlease(props) {
     }
 
     return <>
-        <h1>PLEASE ENTER THE PASSWORD</h1>
+        <h1>{puzzle.title}</h1>
 
         <form>
             <input type="text" className="form-control my-5" id="password" aria-describedby="password" onChange={e => setUsername(e.target.value)}></input>
@@ -31,6 +31,6 @@ export default function PasswordPlease(props) {
             <button type="button" className="btn btn-primary" onClick={() => passwordCheck(username, puzzle.password)}>Submit</button>
         </form>
 
-        <div id="clue" className="my-3" style={{display:"none"}}> {puzzle.answer} </div>
+        <div id="clue" className="my-3" style={{display:"none"}}> {puzzle.reveal} </div>
     </>
 }

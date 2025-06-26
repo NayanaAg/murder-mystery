@@ -1,12 +1,28 @@
 [
     {
-        "id": 1,
+        "id": 0,
+        "puzzle": "test",
         "password": "test123",
-        "answer": "This is the correct answer"
+        "reveal": "This is the correct answer"
+    },
+    {
+        "id": 1,
+        "puzzle": "Ivan's false tome to access the amulet",
+        "title": "What word do I need to hear?",
+        "password": "WORLD",
+        "reveal": "You may now open the false tome."
     },
     {
         "id": 2,
-        "password": "23456",
-        "answer": ""
+        "puzzle": "Chess puzzle to reveal Scarlett & William's recording",
+        "title": "Enter the password to access the meeting logs.",
+        "password": "g4#",
+        "reveal": "This is the correct answer"
+    },
+    {
+        "id": 3,
+        "puzzle": "test",
+        "password": "test123",
+        "reveal": "This is the correct answer"
     }
 ]
