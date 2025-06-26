@@ -1,9 +1,10 @@
 [
     {
         "id": 0,
-        "puzzle": "test",
-        "password": "test123",
-        "reveal": "This is the correct answer"
+        "puzzle": "Rioja Vega to access the Big Fight recording",
+        "title": "What word do I need to hear?",
+        "password": "argument",
+        "reveal": "/audio/big-fight.mp3"
     },
     {
         "id": 1,
