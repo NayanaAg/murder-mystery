@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
 html,
 #container-fluid {
     background-color: #008000;
@@ -22,14 +24,17 @@ html,
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 0.8s;
+    transition: transform 2s;
     transform-style: preserve-3d;
+    transition-delay: 1s;
     fill: #fff;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flipped .flip-card-inner {
     transform: rotateY(180deg);
+    transition-delay: 1s;
+
 }
 
 /* Position the front and back side */
@@ -46,6 +51,12 @@ html,
 /* Style the back side */
 .flip-card-back {
     transform: rotateY(180deg);
+    transition-delay: 1s;
+}
+
+.playing-card {
+    width: 120px;
+    height: 168px;
 }
 
 .card-back,
@@ -59,4 +70,29 @@ html,
 
 .btn {
     margin: 10px;
+}
+
+.delay {
+    transition-delay: 1s;
+}
+
+#lose-popup {
+    background-color: white;
+    height: 100vw;
+    padding: 50px;
+}
+
+h1 {
+    font-family: "Limelight", sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    color: white !important;
+}
+
+.modal-content {
+    background-color: black !important;
+}
+
+.modal-body {
+    color: white !important;
 }

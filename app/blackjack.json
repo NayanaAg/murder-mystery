@@ -1,36 +1,36 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "name": "3 of diamonds",
         "value": 10,
         "image": "/3d.jpg"
     },
     {
-        "id": 2,
+        "id": 1,
         "name": "4 of spades",
         "value": 9,
         "image": "/4s.jpg"
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "6 of diamonds",
         "value": 10,
         "image": "/6d.jpg"
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "6 of hearts",
         "value": 10,
         "image": "/6h.jpg"
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "10 of spades",
         "value": 10,
         "image": "/10s.jpg"
     },
     {
-        "id": 6,
+        "id": 5,
         "name": "Queen of spades",
         "value": 10,
         "image": "/queen.jpg"
