@@ -57,6 +57,7 @@ html,
 .playing-card {
     width: 120px;
     height: 168px;
+    margin: 0 auto;
 }
 
 .card-back,
@@ -95,4 +96,12 @@ h1 {
 
 .modal-body {
     color: white !important;
+}
+
+h2 {
+    color: white !important;
+}
+
+h3 {
+    color: red !important;
 }

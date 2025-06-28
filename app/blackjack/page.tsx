@@ -10,7 +10,7 @@ export default function Page() {
 
     function clickStand() {
         document.getElementById("hidden-dealer").style.display = 'block';
-        document.getElementsByClassName("flip-card")[0].className += " flipped";
+        const flipping = document.getElementsByClassName("flip-card")[0].className += " flipped";
     }
 
     function clickHit() {
@@ -24,7 +24,7 @@ export default function Page() {
 
             <section>
                 <div className="row g-0 mt-5 p-4">
-                    <div className="text-center d-flex">
+                    <div className="text-center row d-flex justify-content-evenly">
                         <div className="col">
                             <div className="playing-card">
                                 <img className="card-back" src="./images/4s.jpg" />
@@ -52,6 +52,17 @@ export default function Page() {
             </section>
 
             <section>
+                <div className="row mt-5">
+                    <div className="col-10 offset-1 text-center">
+                        <h1>WELCOME TO CASINO ROYALE</h1>
+                        <hr></hr>
+                        <h2>Gamble responsibly!</h2>
+
+                    </div>
+                </div>
+            </section>
+
+            <section>
                 <div className="modal fade" id="lose" tabIndex={-1} aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered">
                         <div className="modal-content">
@@ -59,12 +70,13 @@ export default function Page() {
                                 <h1 className="modal-title text-center" id="exampleModalLabel">Uh oh! You lose</h1>
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div className="modal-body text-center">
-                                Better luck next time! <br/>
-                                Please click on the link below to view your Settlement and balance owing.
+                            <div className="modal-body p-4 text-center">
+                                <h3>Your account has been suspended</h3>
+                                <p>Please not your account is suspended due to an excessive balance pending.</p>
+                                <p>You will regain access to our casino services upon paying: </p>
                             </div>
                             <div className="modal-footer justify-content-center">
-                                <button type="button" className="btn btn-danger">VIEW MY BALANCE</button>
+                                <h3>$14,034,134</h3>
                             </div>
                         </div>
                     </div>

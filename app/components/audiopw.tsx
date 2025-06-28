@@ -40,6 +40,10 @@ export default function PasswordAudio(props) {
             <button type="button" className="btn btn-primary btn-lg" onClick={() => passwordCheck(username, puzzle.password)}>ENTER</button>
         </form>
 
-        <div id="clue" className="my-3" style={{ display: "none" }}> <Player /> </div>
+        <div id="clue" className="my-3" style={{ display: "none" }}> 
+            <Player />
+            <p> {puzzle.info}</p>
+         </div>
+
     </>
 }

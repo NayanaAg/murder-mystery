@@ -4,26 +4,55 @@
         "puzzle": "Rioja Vega to access the Big Fight recording",
         "title": "What word do I need to hear?",
         "password": "argument",
-        "reveal": "/audio/big-fight.mp3"
+        "reveal": "/audio/big-fight.mp3",
+        "info": ""
     },
     {
         "id": 1,
         "puzzle": "Ivan's false tome to access the amulet",
         "title": "What word do I need to hear?",
         "password": "WORLD",
-        "reveal": "You may now open the false tome."
+        "reveal": "You may now open the false tome.",
+        "info": ""
     },
     {
         "id": 2,
         "puzzle": "Chess puzzle to reveal Scarlett & William's recording",
-        "title": "Enter the password to access the meeting logs.",
+        "title": "Enter the best move. White to play.",
         "password": "g4#",
-        "reveal": "/audio/scarlett-will.mp3"
+        "reveal": "/audio/scarlett-will.mp3",
+        "info": ""
     },
     {
         "id": 3,
-        "puzzle": "test",
-        "password": "382010",
-        "reveal": "This is the correct answer"
+        "puzzle": "Acquarella wine bottle code behind the label",
+        "title": "Find the code. The wine is your clue.",
+        "password": "8457",
+        "reveal": "/audio/bernard-will.mp3",
+        "info": "Find the lockbox and enter your code."
+    },
+    {
+        "id": 4,
+        "puzzle": "Estelle's diary with highlighted numbers",
+        "title": "Enter the password to reveal the information.",
+        "password": "11412",
+        "reveal": "/audio/estelle-will.mp3",
+        "info": ""
+    },
+    {
+        "id": 5,
+        "puzzle": "Find the key in the study and open the lock to access ",
+        "title": "What is the name of Eva Massard's artpiece?",
+        "password": "fireplace",
+        "reveal": "/audio/bernard-jon-will.mp3",
+        "info": ""
+    },
+    {
+        "id": 6,
+        "puzzle": "Find the key in the study and open the lock to access ",
+        "title": "Reveal the hidden word to receive the information.",
+        "password": "murderer",
+        "reveal": "/audio/jennifer-will.mp3",
+        "info": ""
     }
 ]
