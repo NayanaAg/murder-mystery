@@ -4,7 +4,7 @@
         "puzzle": "Rioja Vega to access the Big Fight recording",
         "title": "What word do I need to hear?",
         "password": "argument",
-        "reveal": "/audio/big-fight.mp3",
+        "reveal": "audio/big-fight.mp3",
         "info": ""
     },
     {
@@ -20,7 +20,7 @@
         "puzzle": "Chess puzzle to reveal Scarlett & William's recording",
         "title": "Enter the best move. White to play.",
         "password": "g4#",
-        "reveal": "./audio/scarlett-will.mp3",
+        "reveal": "audio/scarlett-will.mp3",
         "info": ""
     },
     {
@@ -28,7 +28,7 @@
         "puzzle": "Acquarella wine bottle code behind the label",
         "title": "Find the code. The wine is your clue.",
         "password": "8457",
-        "reveal": "./audio/bernard-will.mp3",
+        "reveal": "audio/bernard-will.mp3",
         "info": "Find the lockbox and enter your code."
     },
     {
@@ -36,7 +36,7 @@
         "puzzle": "Estelle's diary with highlighted numbers",
         "title": "Enter the password to reveal the information.",
         "password": "11412",
-        "reveal": "./audio/estelle-will.mp3",
+        "reveal": "audio/estelle-will.mp3",
         "info": ""
     },
     {
@@ -44,7 +44,7 @@
         "puzzle": "Find the key in the study and open the lock to access ",
         "title": "What is the name of Eva Massard's artpiece?",
         "password": "fireplace",
-        "reveal": "./audio/bernard-jon.mp3",
+        "reveal": "audio/bernard-jon.mp3",
         "info": ""
     },
     {
@@ -52,7 +52,7 @@
         "puzzle": "Find the key in the study and open the lock to access ",
         "title": "Reveal the hidden word to receive the information.",
         "password": "murderer",
-        "reveal": "./audio/jennifer-will.mp3",
+        "reveal": "audio/jennifer-will.mp3",
         "info": ""
     }
 ]
