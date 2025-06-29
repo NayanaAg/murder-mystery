@@ -8,7 +8,7 @@ export default function Page() {
             <div className="row">
                 <div className="col-10 offset-1 mt-5 text-center">
                     <h1>The Amulet</h1>
-                    <img className="artifact-pic mt-2" src="../../images/amulet.jpg" />
+                    <img className="artifact-pic mt-2" src="../images/amulet.jpg" />
                 </div>
 
                 <div className="col-10 offset-1 mt-4">
