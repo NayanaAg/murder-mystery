@@ -1,6 +1,6 @@
 import React from "react";
 import "../artifact.css";
-import ".../images/amulet.jpg";
+
 
 export default function Page() {
     return <>
