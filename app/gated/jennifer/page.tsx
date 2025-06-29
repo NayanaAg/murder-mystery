@@ -6,7 +6,7 @@ export default function Page() {
         <div id="container-fluid">
             <div className="row my-5 d-flex text-center">
                 <div className="col-8 offset-2">
-                    <PasswordAudio puzzle="0"></PasswordAudio>
+                    <PasswordAudio puzzle="6"></PasswordAudio>
                 </div>
             </div>
         </div>
